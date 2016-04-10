@@ -1,0 +1,24 @@
+body {
+  margin: 0; padding: 0;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: normal;
+  color: #3d5866;
+  background-color: #a9bfcb;
+}
+
+.glare_image {
+  background-image: url(../images/Page-BgGlare.png);
+  height: 378px;
+  width: 437px;
+  position: absolute; top: 0; left: 0;
+}
+
+.test {
+  height: 50px;
+  width: 100%;
+  border: 1px solid black;
+  background-color: red;
+  color: #ffffff;
+}
