@@ -8,17 +8,53 @@ body {
   background-color: #a9bfcb;
 }
 
+.test {
+  width: 100%;
+  border: 1px solid black;
+  background-color: red;
+  color: #ffffff;
+  padding: 20px;
+}
+
 .glare_image {
-  background-image: url(../images/Page-BgGlare.png);
+  background: url(../images/Page-BgGlare.png) no-repeat center center;
+  background-size: 437px 378px;
   height: 378px;
   width: 437px;
   position: absolute; top: 0; left: 0;
 }
 
-.test {
-  height: 50px;
-  width: 100%;
-  border: 1px solid black;
-  background-color: red;
-  color: #ffffff;
+#page { max-width: 900px;  position: relative;  margin: 0 auto; border: 1px solid darkgrey; }
+
+header {
+  background: url(../images/wings-header.jpg) no-repeat center center;
+  background-size: 951px 219px;
+  height: 200px;
+  position: relative;
 }
+
+#slogan { color: #f1c96a; font-size: 17px; position: absolute; right: 5px; bottom: 0; }
+
+nav {
+  width: 900px; height: 39px;
+  position: relative;
+  background: url(../images/nav.png) left top;
+}
+
+nav ul { margin: 0; padding: 4px; list-style: none }
+
+nav ul li {
+  display: inline-block;
+  float: left;
+  min-width: 65px;
+  padding: 7px 10px 0 10px;
+  height: 23px;
+  border-right: 1px solid #b6d9ec;
+  text-align: center;
+}
+
+nav ul li a { color: #b6d9ec; text-decoration: none; display: block; min-height: 31px }
+
+nav::after { content: ''; clear: both; display: block; }
+
+section { min-height: 300px; background-color: white }
